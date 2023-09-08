@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+<style> html, body {
+        margin: 0;
+    }
+    body {
+        background-color: #f1f1f1;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .wrapper {
+        width: 1200px;
+        display: flex;
+        margin: 0 auto;
+        background-color: aquamarine;
+    }
+    .main {
+        display: flex;
+        flex-flow: column;
+        width: 85%;
+    }
+    .menu {
+        width: 15%;
+        background-color:  rgb(242, 242, 245);
+        padding: 10px 20px 0px;
+    }
+    .header {
+        background-color:  rgb(242, 242, 245);
+        min-height: 150px;
+    }
+    .content {
+        background-color:  rgb(242, 242, 245);
+        min-height: 250px;
+        padding: 20px;
+    }
+    .footer {
+        background-color:  rgb(242, 242, 245);
+        min-height: 50px;
+    }
+       table th {
+        background-color:  rgb(241, 247, 230);
+       
+    }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+              <h3>Menu</h3>
+            <ul>
+                <li><a href="index.html">Pagina principal</a></li>
+                <li><a href="sobre-clinica.html">Sobre a clinica</a></li>
+                <li><a href="horario-de-atendimento.html">Horario de atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+         </div>
+         <div class="main">
+            <div class="header">
+                <img src="1.png" width="870" height="350">
+            </div>
+    
+            <div class="content">
+                <h3>Agende seu horário</h3>
+                <p>Escolha o melhor horário de acordo  com sua agenda, programe-se e venha conhecer hanbientes climatizados e com 
+                    muito conforto para o melhor atendimento.
+                </p>
+                <table border="1"cellspacing="0" cellpadding="3" >
+                    <tr>
+                      <th>serviços</th>
+                      <th>segunda a sexta</th>
+                      <th>sábados</th>
+                      <th>feriados</th>
+                    </tr>
+                    <tr>
+                      <td>Clinico geral</td>
+                      <td>08h - 19h    80,00 Reais</td>
+                      <td>08 - 14h 90,00 Reais</td>
+                      <td>08h - 14h 150,00 Reais</td>
+
+                    </tr>
+                    <tr>
+                        <td>hortopedista</td>
+                        <td>08h - 18h 80,00 Reais</td>
+                        <td>08h - 14h 90,00 Reais</td>
+                        <td>08h - 14h 200,00 Reais</td>
+                    </tr>
+                     <tr>
+                        <td>Pediatria</td>
+                        <td>08h - 18h 70,00 Reais</td>
+                        <td>08h - 14h 90,00 Reais</td>
+                        <td>08h - 14h 200,00 Reais</td>
+                     </tr>
+                </table>
+            </div>
+    
+            <div class="footer">
+                <h3>Endereço e Contato</h3>
+                  <address>  
+                        <a href="https://goo.gl/maps/6f73CMMFBjmodkLC7">R. Maravalho Belo, s/n - Marambaia, Belém - PA</a><br><br>
+                        <a href="tel:+5591988110421">(91) 988110421</a>
+                </address>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
