@@ -31,8 +31,10 @@
         width: 15%;
         background-color:  rgb(242, 242, 245);
         padding: 10px 20px 0px;
-    
     }
+    .menu a{
+       text-decoration: none;
+            }
     .header {
         background-color:  rgb(242, 242, 245);
         min-height: 150px;
@@ -45,7 +47,10 @@
     .footer {
         background-color:  rgb(242, 242, 245);
         min-height: 50px; }
-        .form {
+    .footer a{
+       text-decoration: none;
+            }
+    .form {
             text-align: left;
             padding: 0%;
               }
@@ -66,7 +71,7 @@
 
         <div class="main">
             <div class="header">
-                <img src="1.png" width="870" height="350">
+                <img src="imagem2.jpg" width="870" height="350">
                 
                 
             </div>
@@ -77,17 +82,17 @@
              
                <form class="form">
                 
-                    <label>
-                      Nome:<input type="text"><br>
+                    <label for="name">
+                      Nome:<input type="text" id="name"><br>
                     </label>
-                    <label>
-                      E-mail: <input type="email"><br>
+                    <label for="email">
+                      E-mail: <input type="email" id="email"><br>
                     </label>
-                    <label>
-                       Assunto:<input type="text"><br>
+                    <label for="Assunto">
+                       Assunto:<input type="text" id="Assunto"><br>
                     </label>
-                    <label>
-                       Mensagem:<textarea></textarea><br>
+                    <label for="mensagem">
+                       Mensagem:<textarea rows="2" cols="28" maxlength="30" minlength="10" id="mensagem"></textarea><br>
                     </label>
                     
                         <input type="submit">
